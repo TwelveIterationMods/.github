@@ -44,7 +44,7 @@ body:
     validations:
       required: true
   - type: input
-    id: modVersion
+    id: balmVersion
     attributes:
       label: Balm Version
       description: What version of Balm were you using? (Try to update Balm if you haven't already!)
