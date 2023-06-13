@@ -12,10 +12,8 @@ body:
       label: Minecraft Version
       description: What version of Minecraft were you running?
       options:
-        - 1.19.4
-        - 1.19.3
+        - 1.20.x
         - 1.19.2 (LTS)
-        - 1.18.2
         - Other (specify below)
     validations:
       required: true
