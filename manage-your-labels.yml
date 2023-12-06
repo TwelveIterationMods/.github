@@ -1,16 +1,16 @@
 LABEL_GROUPS:
     DEFAULT:
-        'mc:1.20':
+        'Minecraft 1.20':
             description: Issues occurring in Minecraft 1.20.x
             color: '76ff03'
             old_names:
                 - '1.20'
-        'mc:1.19':
+        'Minecraft 1.19':
             description: Issues occurring in Minecraft 1.19.x
             color: '76ff03'
             old_names:
                 - '1.19'
-        'mc:1.18':
+        'Minecraft 1.18':
             description: Issues occurring in Minecraft 1.18.x
             color: '76ff03'
             old_names:
@@ -58,13 +58,13 @@ LABEL_GROUPS:
         'needs logs':
             description: Logs must be provided before this issue can be solved
             color: '808000'
-        'platform:fabric':
+        'Fabric':
             description: Issues occurring on the Fabric platform
             color: '87ceeb'
-        'platform:forge':
+        'Forge':
             description: Issues occurring on the Forge platform
             color: '87ceeb'
-        'platform:neoforge':
+        'NeoForge':
             description: Issues occurring on the NeoForge platform
             color: '87ceeb'
         wontfix:
