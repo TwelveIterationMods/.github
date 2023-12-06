@@ -2,86 +2,86 @@ LABEL_GROUPS:
     DEFAULT:
         'mc:1.20':
             description: Issues occurring in Minecraft 1.20.x
-            color: 76ff03
+            color: ""76ff03""
             old_names:
                 - '1.20'
         'mc:1.19':
             description: Issues occurring in Minecraft 1.19.x
-            color: 76ff03
+            color: "76ff03"
             old_names:
                 - '1.19'
         'mc:1.18':
             description: Issues occurring in Minecraft 1.18.x
-            color: 76ff03
+            color: "76ff03"
             old_names:
                 - '1.18'
         bug:
             description: Something isn't working as expected
-            color: ff0000
+            color: "ff0000"
         enhancement:
             description: New features or improvements to existing features
-            color: 0000ff
+            color: "0000ff"
             old_names:
                 - 'feature'
         crash:
             description: Bugs that cause the game to crash
-            color: ff6f00
+            color: "ff6f00"
         regression:
             description: This worked in a previous version but is now broken
-            color: 9c27b0
+            color: "9c27b0"
         confirmed:
             description: This issue has been confirmed and is ready to be worked on
-            color: 304ffe
+            color: "304ffe"
         compatibility:
             description: Issues related to compatibility with another mod
-            color: 009688
+            color: "009688"
         'help wanted':
             description: Pull Requests for this issue are encouraged
-            color: ffeb3b
+            color: "ffeb3b"
         lts:
             description: Solution needs to be backported to LTS versions
-            color: cd7f32
+            color: "cd7f32"
         eol:
             description: The Minecraft version this issue is reported for is no longer supported
-            color: 9e9e9e
+            color: "9e9e9e"
         'needs discussion':
             description: This may be considered in the future and I'm looking for more opinions
-            color: 03a9f4
+            color: "03a9f4"
             old_names:
                 - 'opinions wanted'
         'needs response':
             description: Additional information is required for this to be solved
-            color: ff7f50
+            color: "ff7f50"
             old_names:
                 - 'information needed'
         'needs repro':
             description: This issue needs a reproduction case before it can be solved
-            color: e1bee7
+            color: "e1bee7"
         'needs logs':
             description: Logs must be provided before this issue can be solved
-            color: 808000
+            color: "808000"
         'platform:fabric':
             description: Issues occurring on the Fabric platform
-            color: 87ceeb
+            color: "87ceeb"
         'platform:forge':
             description: Issues occurring on the Forge platform
-            color: 87ceeb
+            color: "87ceeb"
         'platform:neoforge':
             description: Issues occurring on the NeoForge platform
-            color: 87ceeb
+            color: "87ceeb"
         wontfix:
             description: This issue won't be solved because it is invalid or deemed out of scope
-            color: 000000
+            color: "000000"
         stale:
             description: Lack of response or further information
-            color: f5f5dc
+            color: "f5f5dc"
         duplicate:
             description: This issue has already been reported elsewhere
-            color: 800000
+            color: "800000"
         'other mod':
             description: This issue is caused by another mod
-            color: 3f51b5
+            color: "3f51b5"
         'pending release':
             description: This issue is fixed and will be released in the next version
-            color: 00ff7f
+            color: "00ff7f"
 REPOS: {}
