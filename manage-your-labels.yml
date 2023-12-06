@@ -4,16 +4,19 @@ LABEL_GROUPS:
             description: Issues occurring in Minecraft 1.20.x
             color: '76ff03'
             old_names:
+                - 'mc:1.20'
                 - '1.20'
         'Minecraft 1.19':
             description: Issues occurring in Minecraft 1.19.x
             color: '76ff03'
             old_names:
+                - 'mc:1.19'
                 - '1.19'
         'Minecraft 1.18':
             description: Issues occurring in Minecraft 1.18.x
             color: '76ff03'
             old_names:
+                - 'mc:1.18'
                 - '1.18'
         bug:
             description: Something isn't working as expected
@@ -39,9 +42,11 @@ LABEL_GROUPS:
         lts:
             description: Solution needs to be backported to LTS versions
             color: 'cd7f32'
-        eol:
+        'no longer supported':
             description: The Minecraft version this issue is reported for is no longer supported
             color: '9e9e9e'
+            old_names:
+                - 'eol'
         'needs discussion':
             description: This may be considered in the future and I'm looking for more opinions
             color: '03a9f4'
