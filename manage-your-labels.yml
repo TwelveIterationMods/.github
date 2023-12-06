@@ -90,4 +90,7 @@ LABEL_GROUPS:
         blocked:
             description: This issue is blocked by another issue
             color: 'ff0000'
+        'breaking change':
+            description: This issue requires a breaking change to the API or ingame behavior
+            color: 'ff0000'
 REPOS: {}
