@@ -4,23 +4,25 @@ LABEL_GROUPS:
       description: Issues occurring in Minecraft 1.20.x
       color: ffffff
       old_names: 
-        - 1.20
+        - "1.20"
     "mc:1.19":
       description: Issues occurring in Minecraft 1.19.x
       color: ffffff
       old_names: 
-        - 1.19
+        - "1.19"
     "mc:1.18":
       description: Issues occurring in Minecraft 1.18.x
       color: ffffff
       old_names: 
-        - 1.18
+        - "1.18"
     bug:
       description: Something isn't working as expected
       color: ffffff
     enhancement:
       description: New features or improvements to existing features
       color: ffffff
+      old_names:
+        - feature
     crash:
       description: Bugs that cause the game to crash
       color: ffffff
@@ -39,12 +41,19 @@ LABEL_GROUPS:
     lts:
       description: Solution needs to be backported to LTS versions.
       color: ffffff
+    eol:
+      description: The Minecraft version this issue is reported for is no longer supported.
+      color: ffffff
     "needs discussion":
       description: This may be considered in the future and I'm looking for more opinions.
       color: ffffff
+      old_names:
+        - "opinions wanted"
     "needs response":
       description: Additional information is required for this to be solved.
       color: ffffff
+      old_names:
+        - "information needed"
     "needs repro":
       description: This issue needs a reproduction case before it can be solved.
       color: ffffff
@@ -71,4 +80,7 @@ LABEL_GROUPS:
       color: ffffff
     "other mod":
       description: This issue is caused by another mod.
+      color: ffffff
+    "pending release":
+      description: This issue is fixed and will be released in the next version.
       color: ffffff
