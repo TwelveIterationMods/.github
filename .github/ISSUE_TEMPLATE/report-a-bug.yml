@@ -12,6 +12,7 @@ body:
       label: Minecraft Version
       description: What version of Minecraft were you running?
       options:
+        - 1.20.3
         - 1.20.2
         - 1.20.1 (LTS)
         - 1.19.2 (LTS)
@@ -26,13 +27,14 @@ body:
       options:
         - Forge
         - Fabric
+        - NeoForge
     validations:
       required: true
   - type: input
     id: modLoaderVersion
     attributes:
       label: Mod Loader Version
-      description: What version of Forge / Fabric were you using?
+      description: What version of Forge/Fabric/NeoForge were you using?
     validations:
       required: true
   - type: input
