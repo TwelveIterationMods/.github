@@ -72,4 +72,4 @@ LABEL_GROUPS:
         'pending release':
             description: This issue is fixed and will be released in the next version
             color: 00ff7f
-    REPOS:
+    REPOS: {}
