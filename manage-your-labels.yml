@@ -87,4 +87,7 @@ LABEL_GROUPS:
         'pending release':
             description: This issue is fixed and will be released in the next version
             color: '00ff7f'
+        blocked:
+            description: This issue is blocked by another issue
+            color: 'ff0000'
 REPOS: {}
