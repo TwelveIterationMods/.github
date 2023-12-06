@@ -21,8 +21,6 @@ LABEL_GROUPS:
         enhancement:
             description: New features or improvements to existing features
             color: '0000ff'
-            old_names:
-                - 'feature'
         crash:
             description: Bugs that cause the game to crash
             color: 'ff6f00'
