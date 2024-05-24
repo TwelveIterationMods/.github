@@ -12,6 +12,7 @@ body:
       label: Minecraft Version
       description: What version of Minecraft were you running?
       options:
+        - 1.20.6
         - 1.20.4
         - 1.20.1 (LTS)
         - Other (specify below)
