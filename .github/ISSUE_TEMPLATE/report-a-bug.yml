@@ -5,15 +5,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting a bug. Filling out this information and providing logs will help get the issue resolved faster.
+        Thanks for reporting a bug. Filling out this information and providing logs will help get the issue resolved faster. Note that modders will NEVER ask you to download and run any files! Do not fall for spambots!
   - type: checkboxes
     id: warning
     attributes:
       label: ~~~ IMPORTANT SECURITY NOTICE ~~~
       description: 
       options:
-        - label: READ and UNDERSTAND this or YOUR COMPUTER may be AT RISK. 
-          required: true
         - label: Spambots are posting VIRUSES in response to issue reports at the moment. DO NOT CLICK ANY LINKS OR DOWNLOAD ANY FILES. The files they are posting are MALICIOUS.
           required: true
   - type: dropdown
