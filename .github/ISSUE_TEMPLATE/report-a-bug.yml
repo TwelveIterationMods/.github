@@ -9,11 +9,11 @@ body:
   - type: checkboxes
     id: warning
     attributes:
-    label: IMPORTANT
-    description: READ AND UNDERSTAND THIS OR YOUR COMPUTER MAY BE AT RISK. There are currently spambots going around on GitHub telling you to download executable files as a solution to your issue. DO NOT DO THAT. The files they are posting are MALICIOUS. No modder will ever ask you to download an .exe file.
-    options:
-      - label: I understand and will not accidentally download a virus.
-        required: true
+      label: IMPORTANT
+      description: READ AND UNDERSTAND THIS OR YOUR COMPUTER MAY BE AT RISK. There are currently spambots going around on GitHub telling you to download executable files as a solution to your issue. DO NOT DO THAT. The files they are posting are MALICIOUS. No modder will ever ask you to download an .exe file.
+      options:
+        - label: I understand and will not accidentally download a virus.
+          required: true
   - type: dropdown
     id: minecraftVersion
     attributes:
