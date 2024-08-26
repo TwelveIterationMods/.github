@@ -5,7 +5,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting a bug. Filling out this information and providing logs will help get the issue resolved faster. Note that modders will NEVER ask you to download and run any files! Do not fall for spambots!
+        Thanks for reporting a bug. Filling out this information and **providing logs** will help get the issue resolved faster.
+  - type: markdown
+    attributes:
+      value: |
+        Note that modders will NEVER ask you to download and run any files! Do not fall for malicious spambots!
   - type: checkboxes
     id: warning
     attributes:
