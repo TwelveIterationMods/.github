@@ -12,7 +12,7 @@ body:
       label: ~~~ IMPORTANT SECURITY NOTICE ~~~
       description: 
       options:
-        - label: Users might post VIRUS LINKS in comment responses to issue reports. **DO NOT DOWNLOAD ANY FILES FROM HERE.**.
+        - label: Users might post VIRUS LINKS in comment responses to issue reports. **DO NOT DOWNLOAD ANY FILES FROM HERE.**
           required: true
   - type: dropdown
     id: minecraftVersion
