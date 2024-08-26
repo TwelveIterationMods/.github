@@ -12,7 +12,7 @@ body:
       label: ~~~ IMPORTANT SECURITY NOTICE ~~~
       description: 
       options:
-        - label: Spambots are posting VIRUSES in response to issue reports at the moment. DO NOT CLICK ANY LINKS OR DOWNLOAD ANY FILES. The files they are posting are MALICIOUS.
+        - label: Spambots are posting VIRUSES in response to issue reports at the moment. **DO NOT CLICK ANY LINKS OR DOWNLOAD ANY FILES**. The files they are posting are **MALICIOUS**.
           required: true
   - type: dropdown
     id: minecraftVersion
