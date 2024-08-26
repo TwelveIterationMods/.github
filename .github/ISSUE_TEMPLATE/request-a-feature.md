@@ -6,3 +6,5 @@ labels: needs discussion
 assignees: ''
 
 ---
+
+> Note that modders will NEVER ask you to download and run executable files! Do not fall for malicious spambots!
