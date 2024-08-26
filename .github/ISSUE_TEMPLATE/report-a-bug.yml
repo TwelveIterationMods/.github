@@ -6,17 +6,13 @@ body:
     attributes:
       value: |
         Thanks for reporting a bug. Filling out this information and **providing logs** will help get the issue resolved faster.
-  - type: markdown
-    attributes:
-      value: |
-        Note that modders will NEVER ask you to download and run any files! Do not fall for malicious spambots!
   - type: checkboxes
     id: warning
     attributes:
       label: ~~~ IMPORTANT SECURITY NOTICE ~~~
       description: 
       options:
-        - label: Spambots are posting VIRUSES in response to issue reports at the moment. **DO NOT CLICK ANY LINKS OR DOWNLOAD ANY FILES**. The files they are posting are **MALICIOUS**.
+        - label: Spambots may post VIRUS LINKS in comment responses to issue reports. **DO NOT DOWNLOAD ANY FILES FROM ISSUE COMMENTS.**.
           required: true
   - type: dropdown
     id: minecraftVersion
