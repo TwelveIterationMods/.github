@@ -9,7 +9,7 @@ body:
   - type: checkboxes
     id: warning
     attributes:
-      label: **Security Notice**
+      label: "**Security Notice**"
       description: 
       options:
         - label: Users might post VIRUS LINKS in comment responses to issue reports. **DO NOT DOWNLOAD ANY FILES FROM HERE.**
