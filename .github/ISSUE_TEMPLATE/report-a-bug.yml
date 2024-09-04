@@ -68,7 +68,9 @@ body:
     id: logs
     attributes:
       label: Logs
-      description: Provide a link to the logs here. You can use a site like pastebin or gist to upload the latest.log content. Make sure they are set to not expire.
+      description: Provide a link to the logs here. You can use a site like pastebin or gist to upload the latest.log content. Make sure they are set to not expire. You can also just drag your latest.log file into this field.
+    validations:
+      required: true
   - type: input
     id: optifine
     attributes:
