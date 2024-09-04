@@ -68,7 +68,7 @@ body:
     id: logs
     attributes:
       label: Logs
-      description: Drag your latest.log file into this field to upload it. You can use also post a link to a site like pastebin, but make sure they are set to not expire.
+      description: Click this field and drag your latest.log file into it to upload it. You can use also post a link to a site like pastebin, but make sure they are set to not expire.
     validations:
       required: true
   - type: input
