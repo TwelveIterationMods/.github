@@ -64,11 +64,11 @@ body:
       description: Be as thorough as possible and provide a step-by-step guide to reproduce the issue.
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: logs
     attributes:
       label: Logs
-      description: Provide a link to the logs here. You can use a site like pastebin or gist to upload the latest.log content. Make sure they are set to not expire. You can also just drag your latest.log file into this field.
+      description: Drag your latest.log file into this field to upload it. You can use also post a link to a site like pastebin, but make sure they are set to not expire.
     validations:
       required: true
   - type: input
