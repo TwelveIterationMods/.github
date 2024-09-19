@@ -74,5 +74,5 @@ body:
   - type: input
     id: optifine
     attributes:
-      label: Do you use any performance-enhancing mods (e.g. OptiFine) or custom server distributions (e.g. SpongeForge)?
+      label: Do you use any performance-enhancing mods (e.g. OptiFine) or custom server distributions (e.g. SpongeForge or Arclight)?
       description: Specify which and test whether the issue happens with those mods disabled.
