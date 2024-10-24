@@ -6,12 +6,8 @@ body:
     attributes:
       value: |
         Thanks for reporting a bug. Filling out this information and **providing logs** will help get the issue resolved faster.
-  - type: markdown
-    attributes:
-      value: |
-        **Security Notice**
-        Users might post VIRUS LINKS in comment responses to issue reports. **DO NOT DOWNLOAD ANY FILES FROM HERE.**
-        ---
+
+        **Note:** Do not download any files offered here. Malicious user may post malware links in response to issue reports.
   - type: dropdown
     id: minecraftVersion
     attributes:
