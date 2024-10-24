@@ -6,14 +6,12 @@ body:
     attributes:
       value: |
         Thanks for reporting a bug. Filling out this information and **providing logs** will help get the issue resolved faster.
-  - type: checkboxes
-    id: warning
+  - type: markdown
     attributes:
-      label: Security Notice
-      description: 
-      options:
-        - label: Users might post VIRUS LINKS in comment responses to issue reports. **DO NOT DOWNLOAD ANY FILES FROM HERE.**
-          required: true
+      value: |
+        **Security Notice**
+        Users might post VIRUS LINKS in comment responses to issue reports. **DO NOT DOWNLOAD ANY FILES FROM HERE.**
+        ---
   - type: dropdown
     id: minecraftVersion
     attributes:
