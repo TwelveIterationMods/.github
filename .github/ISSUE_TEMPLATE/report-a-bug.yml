@@ -7,7 +7,7 @@ body:
       value: |
         Thanks for reporting a bug. Filling out this information and **providing logs** will help get the issue resolved faster.
 
-        **Note:** Do not download any files offered in comment responses. Malicious user may post malware links disguised as solutions to your problem.
+        **Note:** Do not download any files offered in comment responses as malicious users may try to trick you into installing malware.
   - type: dropdown
     id: minecraftVersion
     attributes:
@@ -29,13 +29,6 @@ body:
         - Forge
         - Fabric
         - NeoForge
-    validations:
-      required: true
-  - type: input
-    id: modLoaderVersion
-    attributes:
-      label: Mod Loader Version
-      description: What version of Forge/Fabric/NeoForge were you using?
     validations:
       required: true
   - type: input
