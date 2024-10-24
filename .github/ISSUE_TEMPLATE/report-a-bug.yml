@@ -7,7 +7,7 @@ body:
       value: |
         Thanks for reporting a bug. Filling out this information and **providing logs** will help get the issue resolved faster.
 
-        **Note:** Do not download any files offered here. Malicious user may post malware links in response to issue reports.
+        **Note:** Do not download any files offered in comment responses. Malicious user may post malware links disguised as solutions to your problem.
   - type: dropdown
     id: minecraftVersion
     attributes:
