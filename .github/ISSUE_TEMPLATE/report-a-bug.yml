@@ -38,13 +38,6 @@ body:
       description: What version of the mod were you using?
     validations:
       required: true
-  - type: input
-    id: balmVersion
-    attributes:
-      label: Balm Version
-      description: What version of Balm were you using? (Try to update Balm if you haven't already!)
-    validations:
-      required: true
   - type: textarea
     id: description
     attributes:
