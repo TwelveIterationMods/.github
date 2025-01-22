@@ -53,8 +53,7 @@ body:
       description: Click this field and drag your latest.log file into it to upload it. You can use also post a link to a site like pastebin, but make sure they are set to not expire.
     validations:
       required: true
-  - type: input
-    id: optifine
+  - type: markdown
     attributes:
-      label: Do you use any performance-enhancing mods (e.g. OptiFine) or custom server distributions (e.g. SpongeForge or Arclight)?
-      description: Specify which and test whether the issue happens with those mods disabled.
+      value: |
+        If you are using custom server distributions (e.g. SpongeForge or Arclight) or performance-enhancing mods (e.g. C2ME), please verify if the issue occurs without them first.
