@@ -32,13 +32,6 @@ body:
         - NeoForge
     validations:
       required: true
-  - type: input
-    id: modVersion
-    attributes:
-      label: Mod Version
-      description: What version of the mod were you using?
-    validations:
-      required: true
   - type: textarea
     id: description
     attributes:
