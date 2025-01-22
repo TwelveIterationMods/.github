@@ -53,7 +53,8 @@ body:
         **Performance Mods and Custom Server Distributions**
         
         If you are using 
-        - custom server distributions (e.g. SpongeForge or Arclight) or
-        - performance-enhancing mods (e.g. C2ME)
+        - custom server distributions (e.g. SpongeForge, Arclight), or
+        - performance mods (e.g. C2ME, Redirector), or
+        - bridging mods (e.g. Sinytra Connector, Polymer)
         
         please test if the issue occurs without them before reporting.
