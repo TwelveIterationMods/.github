@@ -27,9 +27,9 @@ body:
       label: Mod Loader
       description: What mod loader were you using?
       options:
-        - Forge
-        - Fabric
         - NeoForge
+        - Fabric
+        - Forge
     validations:
       required: true
   - type: textarea
