@@ -1,6 +1,7 @@
 name: Report a Bug
 description: The game crashed or something is not working as expected.
 labels: [bug]
+type: Bug
 body:
   - type: markdown
     attributes:
