@@ -1,39 +1,36 @@
 LABEL_GROUPS:
     DEFAULT:
-        'Minecraft 1.20':
-            description: Issues occurring in Minecraft 1.20.x
+        'Minecraft 1.20.1':
+            description: Issues occurring in Minecraft 1.20.1
             color: '76ff03'
-        'Minecraft 1.19':
-            description: Issues occurring in Minecraft 1.19.x
+        'Minecraft 1.21.1':
+            description: Issues occurring in Minecraft 1.21.1
             color: '76ff03'
-        'Minecraft 1.18':
-            description: Issues occurring in Minecraft 1.18.x
+        'Minecraft 1.21.4':
+            description: Issues occurring in Minecraft 1.21.4
             color: '76ff03'
-        bug:
+        Bug:
             description: Something isn't working as expected
             color: 'ff0000'
-        enhancement:
+        Feature:
             description: New features or improvements to existing features
             color: '0000ff'
-        crash:
+        Crash:
             description: Bugs that cause the game to crash
             color: 'ff6f00'
-        regression:
+        Regression:
             description: This worked in a previous version but is now broken
             color: '9c27b0'
-        confirmed:
-            description: This issue has been confirmed and is ready to be worked on
-            color: '304ffe'
-        compatibility:
+        'Mod Compatibility':
             description: Issues related to compatibility with another mod
             color: '009688'
         'help wanted':
             description: Pull Requests for this issue are encouraged
             color: 'ffeb3b'
-        lts:
+        LTS:
             description: Solution needs to be backported to LTS versions
             color: 'cd7f32'
-        'no longer supported':
+        EOL:
             description: The Minecraft version this issue is reported for is no longer supported
             color: '9e9e9e'
         'needs discussion':
@@ -57,25 +54,19 @@ LABEL_GROUPS:
         'NeoForge':
             description: Issues occurring on the NeoForge platform
             color: '87ceeb'
-        wontfix:
-            description: This issue won't be solved because it is invalid or deemed out of scope
-            color: '000000'
         stale:
             description: Lack of response or further information
             color: 'f5f5dc'
-        duplicate:
+        Duplicate:
             description: This issue has already been reported elsewhere
             color: '800000'
         'other mod':
             description: This issue is caused by another mod
             color: '3f51b5'
-        'pending release':
-            description: This issue is fixed and will be released in the next version
-            color: '00ff7f'
         blocked:
             description: This issue is blocked by another issue
             color: 'ff0000'
-        'breaking change':
+        'Breaking Change':
             description: This issue requires a breaking change to the API or ingame behavior
             color: 'ff0000'
 REPOS: {}
