@@ -93,3 +93,7 @@ labels:
   - name: wontfix
     color: '000000'
     description: This issue won't be solved because it is invalid or deemed out of scope 
+  - name: Duplicate
+    color: '800000'
+    description: 'This issue has already been reported elsewhere'
+    previousName: duplicate
