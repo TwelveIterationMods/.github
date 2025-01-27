@@ -1,0 +1,92 @@
+labels:
+  - name: 'Minecraft 1.20.1'
+    color: '76ff03'
+    description: Issues occurring in Minecraft 1.20.1
+  - name: 'Minecraft 1.21.1'
+    color: '76ff03'
+    description: Issues occurring in Minecraft 1.21.1
+  - name: 'Minecraft 1.21.4'
+    color: '76ff03'
+    description: Issues occurring in Minecraft 1.21.4
+  - name: Bug
+    color: 'ff0000'
+    description: Something isn't working as expected
+    previousName: bug
+  - name: Feature
+    color: '0000ff'
+    description: New features or improvements to existing features
+    previousName: enhancement
+  - name: Support
+    color: 'D4C5F9'
+    description: Questions and other requests for help
+  - name: Crash
+    color: 'ff6f00'
+    description: Bugs that cause the game to crash
+    previousName: crash
+  - name: Regression
+    color: '9c27b0'
+    description: This worked in a previous version but is now broken
+    previousName: regression
+  - name: 'Mod Compatibility'
+    color: '009688'
+    description: Issues related to compatibility with another mod
+    previousName: compatibility
+  - name: 'help wanted'
+    color: 'ffeb3b'
+    description: Pull Requests for this issue are encouraged
+  - name: LTS
+    color: 'cd7f32'
+    description: Solution needs to be backported to LTS versions
+    previousName: lts
+  - name: EOL
+    color: '9e9e9e'
+    description:
+      The Minecraft version this issue is reported for is no longer supported
+    previousName: no longer supported
+  - name: 'Needs Discussion'
+    color: '03a9f4'
+    description:
+      This may be considered in the future and I'm looking for more opinions
+    previousName: needs discussion
+  - name: 'Needs Response'
+    color: 'ff7f50'
+    description: Additional information is required for this to be solved
+    previousName: needs response
+  - name: 'Needs Repro'
+    color: 'e1bee7'
+    description: This issue needs a reproduction case before it can be solved
+    previousName: needs repro
+  - name: 'Needs Logs'
+    color: '808000'
+    description: Logs must be provided before this issue can be solved
+    previousName: needs logs
+  - name: 'Fabric'
+    color: '87ceeb'
+    description: Issues occurring on the Fabric platform
+  - name: 'Forge'
+    color: '87ceeb'
+    description: Issues occurring on the Forge platform
+  - name: 'NeoForge'
+    color: '87ceeb'
+    description: Issues occurring on the NeoForge platform
+  - name: Stale
+    color: 'f5f5dc'
+    description: Lack of response or further information
+    previousName: stale
+  - name: Duplicate
+    color: '800000'
+    description: This issue has already been reported elsewhere
+    previousName: uplicate
+  - name: 'Caused by Another Mod'
+    color: '3f51b5'
+    description: This issue is caused by another mod
+    previousName: other mod
+  - name: 'Blocked by Another Issue'
+    color: 'ff0000'
+    description: This issue is blocked by another issue
+    previousName: blocked
+  - name: 'Breaking Change'
+    color: 'ff0000'
+    description:
+      This issue requires a breaking change to the API or ingame behavior
+    previousName: breaking change
