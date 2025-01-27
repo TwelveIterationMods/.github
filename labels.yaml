@@ -90,3 +90,6 @@ labels:
     description:
       This issue requires a breaking change to the API or ingame behavior
     previousName: breaking change
+  - name: wontfix
+    color: '000000'
+    description: This issue won't be solved because it is invalid or deemed out of scope 
