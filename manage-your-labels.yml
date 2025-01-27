@@ -15,6 +15,9 @@ LABEL_GROUPS:
         Feature:
             description: New features or improvements to existing features
             color: '0000ff'
+        Support:
+            description: Questions and other requests for help
+            color: 'D4C5F9'
         Crash:
             description: Bugs that cause the game to crash
             color: 'ff6f00'
