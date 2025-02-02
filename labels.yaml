@@ -1,4 +1,7 @@
 labels:
+  - name: 'Minecraft 1.19.2'
+    color: '76ff03'
+    description: Issues occurring in Minecraft 1.19.2
   - name: 'Minecraft 1.20.1'
     color: '76ff03'
     description: Issues occurring in Minecraft 1.20.1
