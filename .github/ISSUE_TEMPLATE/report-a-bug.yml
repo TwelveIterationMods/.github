@@ -52,8 +52,9 @@ body:
     attributes:
       value: |
         > [!WARNING]
-        > **Note:** If you are using 
+        > If you are using 
         > - custom server distributions (e.g. SpongeForge, Arclight), or
         > - performance mods (e.g. C2ME, Redirector), or
         > - bridging mods (e.g. Sinytra Connector, Polymer)
+        > 
         > you must test if the issue occurs without them before reporting.
