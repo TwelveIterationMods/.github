@@ -10,7 +10,7 @@ body:
         Thanks for reporting a bug. Filling out this information and **providing logs** will help get the issue resolved faster.
 
         > [!WARNING]
-        > **Note:** Do not download any files from comments on GitHub. Malicious users may try tricking you into installing malware.
+        > Do not download any files from comments on GitHub. Malicious users may try to trick you into installing malware.
   - type: dropdown
     id: minecraftVersion
     attributes:
