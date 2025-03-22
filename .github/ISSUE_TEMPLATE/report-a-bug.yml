@@ -9,7 +9,8 @@ body:
       value: |
         Thanks for reporting a bug. Filling out this information and **providing logs** will help get the issue resolved faster.
 
-        **Note:** Do not download any files offered in comment responses as malicious users may try to trick you into installing malware.
+        > [!WARNING]
+        > **Note:** Do not download any files offered in comment responses as malicious users may try to trick you into installing malware.
   - type: dropdown
     id: minecraftVersion
     attributes:
@@ -50,12 +51,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        
-        **Performance Mods and Custom Server Distributions**
-        
-        If you are using 
-        - custom server distributions (e.g. SpongeForge, Arclight), or
-        - performance mods (e.g. C2ME, Redirector), or
-        - bridging mods (e.g. Sinytra Connector, Polymer)
-        
-        please test if the issue occurs without them before reporting.
+        > [!WARNING]
+        > **Note:** If you are using 
+        > - custom server distributions (e.g. SpongeForge, Arclight), or
+        > - performance mods (e.g. C2ME, Redirector), or
+        > - bridging mods (e.g. Sinytra Connector, Polymer)
+        > you must test if the issue occurs without them before reporting.
