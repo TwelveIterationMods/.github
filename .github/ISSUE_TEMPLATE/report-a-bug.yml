@@ -57,4 +57,4 @@ body:
         > - performance mods (e.g. C2ME, Redirector), or
         > - bridging mods (e.g. Sinytra Connector, Polymer)
         > 
-        > you must test if the issue occurs without them before reporting.
+        > you should test if the issue occurs without them before reporting.
