@@ -11,6 +11,9 @@ labels:
   - name: 'Minecraft 1.21.4'
     color: '76ff03'
     description: Issues occurring in Minecraft 1.21.4
+  - name: 'Minecraft 1.21.5'
+    color: '76ff03'
+    description: Issues occurring in Minecraft 1.21.5
   - name: Bug
     color: 'ff0000'
     description: Something isn't working as expected
