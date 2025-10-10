@@ -17,7 +17,7 @@ body:
       label: Minecraft Version
       description: What version of Minecraft were you running?
       options:
-        - 1.21.9
+        - 1.21.10
         - 1.21.8
         - 1.21.5
         - 1.21.4
@@ -58,4 +58,5 @@ body:
         > Logs are **required**. You can find them in the logs folder of your Minecraft instance.
         > 
         > Failure to provide logs may result in your ticket being closed.
+
 
